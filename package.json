@@ -4,17 +4,19 @@
   "description": "npm init -y",
   "main": "main.js",
   "scripts": {
-  "dev": "vite --port 3000",
-  "build": "vite build",
-  "start": "vite preview --port 8080",
-  "postinstall": "npm install"   // Add this line to ensure dependencies are installed
-},
-
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "start": "vite preview --port 8080",
+    "postinstall": "npm install"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@d-id/client-sdk": "^1.0.19-beta.125",
     "vite": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
