@@ -4,10 +4,12 @@
   "description": "npm init -y",
   "main": "main.js",
   "scripts": {
-    "dev": "vite --port 3000",
-    "build": "vite build",
-    "start": "vite preview --port 8080"
-  },
+  "dev": "vite --port 3000",
+  "build": "vite build",
+  "start": "vite preview --port 8080",
+  "postinstall": "npm install"   // Add this line to ensure dependencies are installed
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
